@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: #e5e5fd;
+  min-height: 100vh;
+  border: 10px solid#1D1E4C;
+}
+.content{
+  max-width: 900px;
+  margin: 0 auto;
+}
+.top_section{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.top_section h1{
+  font-size: 50px;
+  font-weight: bold;
+  color: #1D1E4C;
+  text-transform: uppercase;
+}
+.top_section h4{
+  font-size: 30px;
+  text-align: end;
+}
+.image_container{
+  border-radius: 50%;
+  overflow: hidden;
+}
+.image_container,img{
+  width: 300px;
+  height: 320px;
+}
+.about_section{
+  margin-top: 50px;
+
+}
+.about_section h2{
+  font-size: 70px;
+  font-weight: 400px;
+  margin: 20px;
+}
+.about_section p{
+  font-size: 20px;
+line-height: 30px;
+  letter-spacing: 1.2px;
+  text-align: justify;
+}
+
+.Biographgy_section h3{
+ 
+  margin-bottom: 30px;
+  margin-right: 717px;
+  font-size: 180%;
+  
+
+}
+.Biographgy_section {
+  margin-top: 50px;
+  text-align: center; /* Centers text content */
+}
+
+.Biographgy_section ul {
+  margin-left: 60px;
+  display: inline-block; /* Makes the list content behave like an inline element */
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  text-align: left; /* Ensures the list items are left-aligned within the centered block */
+}
+.Biographgy_section li{
+  margin-bottom: 15px;
+}
+
+footer {
+  margin: 50px 0;
+}
+footer p {
+    text-align: end;
+    margin: 50px;
+   text-align: leftt;
+   font-size: 1.5em; /* 1.8 times the size of the parent element */
+}
